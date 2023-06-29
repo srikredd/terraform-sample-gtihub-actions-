@@ -3,7 +3,7 @@ name: Terraform CI/CD
 on:
   push: main
     paths:
-      - '/c/Users/a837365/terrafrom-sample/.github/workflows/*.tf'
+      - '.github/workflows/terraform-ci-cd.yml/*.tf'
 
 jobs:
   terraform:
